@@ -53,6 +53,7 @@ public class Solution09 {
 			return;			
 		}			
 		
+		// there are two conditions when we are weaving
 		int headFirst = first.removeFirst();
 		prefix.addLast(headFirst);
 		weaveLists(first, second, results, prefix);
@@ -91,4 +92,4 @@ public class Solution09 {
 	}
 		
 }
-// refer to the solution of cc150 
+// most of the answer is referring to the solution of cc150 
